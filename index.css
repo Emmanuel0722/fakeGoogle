@@ -1,0 +1,171 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* HEADER */
+
+header{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 60px;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+header a{
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header li{
+  margin: 0 10px;
+}
+
+.imgAHeader{
+  width: 30px;
+  height: 30px;
+  color: rgb(89, 89, 89);
+}
+
+.imgHeader{
+  border-radius: 100%;
+}
+
+/* MAIN */
+
+main{
+  text-align: center;
+  margin-top: 120px;
+}
+
+.title{
+  width: 350px;
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+.containerLabel{
+  border: 0.1px solid rgb(170, 170, 170);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.searchContainer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.search{
+  width: 85%;
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.containerMicro{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.containerSearch{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.cam{
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.btn{
+  margin: 0 5px 15px 0;
+  background-color: rgb(222, 222, 222);
+  width: 160px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  color: rgb(72, 72, 72);
+}
+
+.btn:hover{
+  outline: 1px solid rgb(161, 161, 161);
+}
+
+.low{
+  color: rgb(118, 118, 118);
+}
+
+.lowA{
+  text-decoration: none;
+  color: rgb(48, 48, 193);
+}
+
+.lowA:hover{
+  text-decoration: underline;
+}
+
+/* FOOTER */
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(231, 231, 231);
+}
+
+.divFooter{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 50px;
+}
+
+.listFooter{
+  display: flex;
+  justify-content: space-between;
+  height: 50%;
+  align-items: center;
+}
+
+.listFooter ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /* margin: 0 25px; */
+}
+
+.listFooter a{
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+}
+
+.listFooter a:hover{
+  text-decoration: underline;
+}
