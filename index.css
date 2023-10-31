@@ -141,9 +141,15 @@ footer{
 
 .divFooter{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-left: 20px;
+  margin: 0 20px;
   height: 50px;
+}
+
+.divFooter a {
+  text-decoration: none;
+  color: black;
 }
 
 .listFooter{
